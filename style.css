@@ -1,0 +1,281 @@
+
+body{
+    font-family:'Inter', sans-serif;
+}
+
+
+.mc{
+    position:absolute;
+    width:60px;
+    height:auto;
+    left: 60px;
+     top: 20px;
+}
+
+.dd{
+    display: flex;
+    position:absolute;
+    left: 200px;
+    top:23px;
+    flex-direction: column;
+    z-index: 10;
+   
+}
+
+.text{
+    width:180px;
+    height:60px;
+    color:white;
+    background-color: red;
+    border:none;
+    border-radius: 10px;
+    font-size: 23px;
+
+}
+.opt1{
+    width:180px;
+    height:60px;
+    color:black;
+    background-color:white;
+    border:none;
+    border-radius: 10px;
+    font-size: 23px;
+    display:none;
+
+}
+#dinein{
+    border-bottom-left-radius:0px ;
+    border-bottom-right-radius: 0px;
+}
+#onthego{
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.p1{
+    width: 20px;
+    height:auto;
+    
+}
+
+.side2{
+    display:flex;
+    justify-content: space-between;
+     width:450px;
+     font-size: 23px;
+}
+.side{
+    display:flex;
+    justify-content: flex-end;
+    padding-top: 25px;
+    padding-right: 10px;
+}
+#img1{
+width:23px;
+height:auto;
+}
+#img2{
+width:23px;
+height:auto;
+}
+
+.yellow{
+    background-color:yellow;
+    color: yellow;
+   position:relative;
+   top:50px;
+}
+
+.black{
+    background-color: black;
+    color: black;
+    position: relative;
+    top:51px;
+    height:45px;
+}
+#menu{
+    font-size: 50px;
+    position:relative;
+    top:90px;
+    left: 55px;
+}
+.Menubox{
+    height: 200px;
+    box-shadow: 0 5px 5px -6px black;
+}
+
+.search{
+    -webkit-appearance: none;
+    appearance: none;
+    position: relative;
+    top:80px;
+    left:1000px;
+    height:40px;
+    width:270px;
+   font-size:20px;
+   padding:5px;
+    outline: none;
+}
+#srchbtn{
+    position:relative;
+    top:80px;
+    left:935px;
+    border:none;
+    background-color:white;
+}
+
+#icon{
+height:15px;
+width:auto;
+}
+.sidebar{
+    position:relative;
+    height:500px;
+    width:200px;
+    top: 30px;
+    font-size: 20px;
+    color: gray;
+    box-shadow:
+    4px 0 6px rgba(0,0,0,0.15),
+    0 -4px 6px rgba(0,0,0,0.15);
+}
+#drink{
+    width: 150px;
+    padding:20px;
+    transition: 0.2s;
+    
+}
+#burgers{
+    width:150px;
+    padding:20px;
+}
+#drinkimg{
+    position:relative;
+    width:25px;
+    height:auto;
+}
+#dishimg{
+    position:relative;
+    width:25px;
+    height:auto;
+}
+.active{
+    color: black;
+}
+#veg{
+    position: absolute;
+    top:400px;
+    left:250px;
+    display:inline-block;
+    height:40px;
+    width:60px;
+   font-size: 15px ;
+   border: 1px solid bisque;
+   border-radius: 30px;
+   background-color: antiquewhite;
+   color: rgb(214, 183, 136);
+}
+#nveg{
+    position: absolute;
+    top:400px;
+    left:320px;
+    display:inline-block;
+    height:40px;
+    width:90px;
+   font-size: 15px ;
+   border: 1px solid bisque;
+   border-radius: 30px;
+   background-color: antiquewhite;
+   color: rgb(214, 183, 136);
+}
+.hidden{
+    display:none;
+}
+.heading{
+    position:absolute;
+    top:320px;
+    left:260px;
+}
+.drinkcard{
+    display:flex;
+    flex-direction: column;
+}
+#drink1{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    padding-left: 10px;
+    gap:5px;
+    position:absolute;
+    top:470px;
+    left:270px;
+    font-size: 20px;
+    height:350px;
+    width:250px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+   
+}
+#drink1img{
+   height:200px;
+    width:180px;
+}
+#drink1 p {
+    margin:0px;
+}
+#drink2 p {
+    margin:0px;
+}
+#add1{
+    height:40px;
+    width:230px ;
+    background-color: rgb(241, 227, 71);
+    margin:5px;
+    font-size: 25px;
+    border-radius: 20px;
+    border:none;
+}
+#drink2{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    padding-left: 10px;
+    gap:5px;
+    position:absolute;
+    top:470px;
+    left:600px;
+    font-size: 20px;
+    height:350px;
+    width:250px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+   
+}
+
+#cartbox{
+height:400px;
+width:350px;
+box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+
+}
+.cart{
+    position: absolute;
+    top:350px;
+    right:100px;
+    border-left: 1px solid rgba(0, 0, 0, 0.15);
+    padding-left: 40px;
+}
+.Cart-Item{
+    display:flex;
+    flex-direction: column;
+    padding:15px;
+    margin: 8px 0;
+    font-size: 20px;
+}
+   .item-price{
+    font-size: 17px;
+    margin:8px;
+   }
+   #total{
+    padding: 10px 10px;
+    margin:8px;
+   }
+
